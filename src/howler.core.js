@@ -2322,6 +2322,7 @@
   /***************************************************************************/
 
   var cache = {};
+  Howler.cache = cache;
 
   /**
    * Buffer a sound from URL, Data URI or cache and decode to audio source (Web Audio API).
